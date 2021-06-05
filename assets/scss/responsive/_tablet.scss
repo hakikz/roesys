@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .navbar{
+        #navbarSupportedContent{
+            ul{
+                li{
+                    border-bottom: 1px solid $greenc;
+                }
+            }
+        }
+
+    }
+}

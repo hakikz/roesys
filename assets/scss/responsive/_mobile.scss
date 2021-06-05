@@ -1,0 +1,16 @@
+@media screen and (max-width: 767px) {
+    .mb-40 {
+        margin-bottom: 0px;
+    }    
+
+    .navbar{
+        #navbarSupportedContent{
+            ul{
+                li{
+                    border-bottom: 1px solid $greenc;
+                }
+            }
+        }
+
+    }
+}

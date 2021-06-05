@@ -1,0 +1,24 @@
+.breadcrumb{
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+
+    li{
+        font-size: $fs - 1px;
+        color: $liteashc;
+        a{
+            font-size: $fs - 1px;
+            font-weight: $reg;
+            color: $greenc;
+        }
+
+        &.breadcrumb-item+{
+            .breadcrumb-item{
+                &::before {
+                    content: "›";
+                    font-family: $open;
+                }
+            }
+        }
+    }
+}

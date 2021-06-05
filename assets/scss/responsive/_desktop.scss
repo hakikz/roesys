@@ -1,0 +1,15 @@
+@media screen and (min-width: 1200px) {
+    .mb-134 {
+        margin-bottom: 134px;
+    } 
+    
+    .no-gutters-lg{
+        margin-left: 0;
+        margin-right: 0;
+
+        &>.col, &>[class*=col-]{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}

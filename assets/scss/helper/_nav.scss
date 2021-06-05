@@ -1,0 +1,46 @@
+.navbar{
+    padding-left: 0;
+    padding-right: 0;
+    #navbarSupportedContent{
+        ul{
+            justify-content: flex-end;
+            width: 100%;
+
+            li{
+                a{
+                    font-size: $fs + 9px;
+                    text-transform: uppercase;
+                    color: $liteashc;
+                    padding-right: 50px;
+                    position: relative;
+                    text-decoration: none;
+                    font-weight: $reg;
+
+                    &:hover{
+                        color: $greenc;
+                    }
+                }
+
+                &.current-menu-item{
+                    a{
+                        color: $greenc;
+                        font-weight: $bold;
+                    }
+                }
+
+                &.icon-holder{
+                    a{
+                        &::after{
+                            content: url('../images/play.svg');
+                            width: 30px;
+                            height: 30px;
+                            position: absolute;
+                            top: 0;
+                            right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

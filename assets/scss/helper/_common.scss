@@ -1,0 +1,65 @@
+body{
+    font-family: $open;
+    font-weight: $reg;
+    color: $liteashc;
+}
+
+.full-image{
+
+    video {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: -6px;
+    }
+}
+
+.main{
+    margin-top: 40px;
+    display: block;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: $bold;
+    color: $greenc;
+}
+
+h2{
+    font-size: $fs + 20px;
+}
+
+p{
+    font-size: $fs + 9px;
+    color: $liteashc;
+}
+
+.content-wrap {
+    h2{
+        padding: 20px 0 40px;
+    }
+    p{
+        br{
+            display: block;
+            content: "";
+            margin-bottom: 33px;
+        }
+    }
+}
+
+.btn-green{
+    background-color: $greenc;
+    color: $whitec;
+    text-transform: uppercase;
+    font-weight: $bold;
+    font-weight: $fs;
+    padding: 15px 20px;
+    border-radius: 0;
+}
+

@@ -1,0 +1,13 @@
+.back-link{
+    padding: .75rem 1rem;
+    text-align: right;
+    a{
+        color: $liteashc;
+        font-size: $fs - 1px;
+        text-decoration: none;
+
+        &:hover{
+            color: $greenc;
+        }
+    }
+}
